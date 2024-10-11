@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="btnTillbaka" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                          <Component id="lblMinaUppgifter" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblEnamn" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblFnamn" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblAvd" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblAnsDatum" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblTele" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblAdress" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblEpost" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblSQLFnamn" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblSQLEnamn" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblSQLAdress" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblSQLEpost" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblSQLTele" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblSQLAnsDatum" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblSQLAvd" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="lblVarning" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="122" max="-2" attributes="0"/>
+                      <Component id="btnAndraUppgifter" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="32" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Component id="lblMinaUppgifter" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="btnTillbaka" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblFnamn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblSQLFnamn" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblEnamn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblSQLEnamn" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblAdress" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblSQLAdress" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblEpost" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblSQLEpost" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblTele" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblSQLTele" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblAnsDatum" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblSQLAnsDatum" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblAvd" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblSQLAvd" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="40" max="32767" attributes="0"/>
+              <Component id="lblVarning" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnAndraUppgifter" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblMinaUppgifter">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mina uppgifter"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFnamn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="F&#xf6;rnamn"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEnamn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Efternamn"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAdress">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Adress"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEpost">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Epost"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTele">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Telefon"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAnsDatum">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Anst&#xe4;llningsdatum"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAvd">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avdelning"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSQLFnamn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSQLEnamn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSQLAdress">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSQLEpost">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSQLTele">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSQLAnsDatum">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSQLAvd">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel6"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnAndraUppgifter">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xc4;ndra uppgifter"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAndraUppgifterActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnTillbaka">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tillbaka"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTillbakaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblVarning">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Om du &#xe4;ndrar dina uppgifter kommer du beh&#xf6;va logga in p&#xe5; nytt"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
